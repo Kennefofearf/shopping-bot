@@ -11,5 +11,6 @@ import puppeteer from "puppeteer";
     // Set screen size
     await page.setViewport({width: 1080, height: 1024});
   
+    // Closes browser when it's finished running
     await browser.close();
   })();
